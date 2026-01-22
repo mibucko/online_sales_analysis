@@ -18,3 +18,6 @@ p3.set_quantity(44)     # Testing of function for changing product quantity.
 pm.display_all_products()
 print()
 pm.total_value()        # Total inventory value
+pm.item_remove("Fica")      # Testing of function for removing product.
+print()
+pm.display_all_products() # Product list without removed item.
