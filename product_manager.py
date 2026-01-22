@@ -7,7 +7,7 @@ class ProductManager:
     def add_product(self, p: Product):
         self.products.append(p) 
     
-    def display_all_products(self):
+    def display_info(self):
         print("Summary of all our products:")
         for p in self.products:
             print(p.display_info())
