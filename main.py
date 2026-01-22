@@ -1,7 +1,7 @@
 from product import Product
 from product_manager import ProductManager
 
-p1 = Product("Audi", 1200, 15)
+p1 = Product("Opel", 1200, 22)
 p2 = Product("Lamborgini", 20, 50)
 p3 = Product("Fica", 250, 5)
 p4 = Product("Lancia", 2150, 45)
@@ -15,9 +15,7 @@ pm.add_product(p4)
 pm.add_product(p5)
 
 p3.set_quantity(44)     # Testing of function for changing product quantity.
-pm.display_all_products()
-print()
-pm.total_value()        # Total inventory value
+
 pm.item_remove("Fica")      # Testing of function for removing product.
 print()
 pm.display_all_products() # Product list without removed item.
